@@ -139,6 +139,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'sonokai'
 let g:airline#extensions#tabline#buffer_nr_show = 1
 " let g:airline#extensions#tabline#buffer_idx_mode = 1
+let g:airline#extensions#tabline#ignore_bufadd_pat = 'defx|gundo|nerd_tree|startify|tagbar|undotree|vimfiler'
+" let g:airline#extensions#tabline#ignore_bufadd_pat = '!|defx|gundo|nerd_tree|startify|tagbar|term://|undotree|vimfiler'  # default
 
 " delimitMate plugin
 let delimitMate_expand_space=1
