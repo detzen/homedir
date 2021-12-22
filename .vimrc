@@ -37,6 +37,7 @@ filetype plugin indent on                  " turns on detection, ft-plugin and i
 set autoindent                             " enable auto indenting
 " set number                               " enable line numbers
 set nobackup                               " disable backup files
+set noshow                                 " hide the mode identifier (e.g. INSERT/REPLACE/...) below statusline
 set laststatus=2                           " show status line
 set wildmenu                               " display command line's tab complete options as a menu.
 set hidden                                 " allow buffer switch without saving
