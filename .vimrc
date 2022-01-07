@@ -228,6 +228,9 @@ vnoremap ,cc :call ToggleComment()<cr>
 "     miscellaneous      "
 " ---------------------- "
 
+" set specific indentation for yaml files
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
 if has("gui_running")
     " GUI is running or is about to start.
     " Maximize gvim window (for an alternative on Windows, see simalt below).
