@@ -119,3 +119,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Disable XON/XOFF for interactive login sessions, otherwise
+# forward search in bash history with CTRL-S doesn't work
+# because it colides with XON/XOFF flow control
+[[ $- == *i* ]] && stty -ixon
+
