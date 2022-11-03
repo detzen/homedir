@@ -27,7 +27,7 @@ For usage, the following requirements have to be fulfilled.
 6. Restart vim and you're done
 
 ## dircolors
-Copy `dircolory*` to your home directory and create a symlink for the dircolor version of your choice, e.g.:
+Copy `dircolors*` to your home directory and create a symlink for the dircolor version of your choice, e.g.:
 
 `ln -s dircolors.256dark .dircolors`
 
